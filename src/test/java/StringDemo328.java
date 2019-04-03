@@ -1,3 +1,5 @@
+package studying;
+
 import org.testng.annotations.Test;
 import java.util.HashSet;
 import java.util.Set;
@@ -5,7 +7,9 @@ import java.util.Set;
 public class StringDemo328 {
     String[] s = {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
     public int numUniqueEmails(String[] emails) {
-        Set<String> seen = new HashSet();
+       // Set<String> seen = new HashSet();
+        Set seen = new HashSet();
+//以上写法也对
         for (String email : emails) {
             int i = email.indexOf('@');
             String local = email.substring(0, i);
@@ -24,10 +28,6 @@ public class StringDemo328 {
     }
     @Test
     public void test(){
-        //String a = "asdf.alsjdf.ueo";
-        //a = a.replaceAll("\\pP","");
-        // a = a.replace(".","");
-        // System.out.println(a);
         int re = numUniqueEmails(s);
         System.out.println(re);
     }

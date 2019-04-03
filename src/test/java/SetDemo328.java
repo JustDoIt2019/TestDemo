@@ -1,5 +1,6 @@
-import org.junit.Test;
+package studying;
 
+import org.testng.annotations.Test;
 import java.util.*;
 
 public class SetDemo328 {

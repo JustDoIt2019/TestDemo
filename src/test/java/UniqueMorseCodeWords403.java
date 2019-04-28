@@ -7,9 +7,9 @@ import java.util.Set;
 //804  Return the number of different transformations among all words we have.
 
 /*   字母对应Ascii：
-	 *A-Z 65-90
-	 *a-z 97-122
-*/
+ *A-Z 65-90
+ *a-z 97-122
+ */
 
 public class UniqueMorseCodeWords403 {
 

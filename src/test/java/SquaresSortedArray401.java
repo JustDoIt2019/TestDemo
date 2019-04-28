@@ -3,8 +3,6 @@ package studying;
 import org.testng.annotations.Test;
 import utils.Tools;
 
-
-import java.util.ArrayList;
 import java.util.Arrays;
 
 //square array and sort
